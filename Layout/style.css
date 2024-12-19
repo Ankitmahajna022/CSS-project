@@ -1,0 +1,101 @@
+*
+{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.navbr
+{
+    height:60px;
+    width:100%;
+    background-color: black;
+}
+.logo
+{
+    height:60px;
+    width: 10%;
+    background-color: white;
+    float: left;
+}
+.logo img
+{
+    height: 60px;
+    width: 100%;
+}
+.meunbar
+{
+    height: 60px;
+    width: 90%;
+    align-content: center;
+}
+.meunbar ul
+{
+    float: right;
+    
+}
+.meunbar li
+{
+    list-style: none;
+    display: inline;
+    padding: 0px 0px 0px 10px;
+} 
+.meunbar a
+{
+    text-decoration: none;
+    color:white;
+}
+.hompage
+{
+    height: 250px;
+    width: 80%;
+    margin: auto;
+}
+.hompage img
+{
+    height: 250px;
+    width: 100%;
+}
+.gallery
+{
+    height: 250px;
+    width: 80%;
+    margin: auto;
+}
+.photo1
+{
+    height: 200px;
+    width: 25%;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+.photo1 img
+{
+    height: 200px;
+    width: 100%;
+}
+.photo2
+{
+    height: 200px;
+    width: 25%;
+    background-color: red;
+    float: left;
+    padding: 0px 0px 0px 20px;
+
+}
+.photo3
+{
+    height: 200px;
+    width: 25%;
+    background-color: magenta;
+    float: left;
+    padding: 0px 0px 0px 20px;
+
+}
+.photo4
+{
+    height: 200px;
+    width: 25%;
+    background-color: yellow;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
