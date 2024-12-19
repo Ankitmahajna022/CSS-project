@@ -10,6 +10,6 @@
 <br>
 <h3>Layout</h3>
 
-<a href="https://github.com/Ankitmahajna022/CSS-project/tree/main/Hyundai"><img src="Screenshot 2024-12-19 154649.png"></a>
+<a href="https://github.com/Ankitmahajna022/CSS-project/tree/main/Layout"><img src="Screenshot 2024-12-19 154649.png"></a>
 
 
