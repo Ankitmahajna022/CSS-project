@@ -1,0 +1,144 @@
+@media(min-width:320px)
+{
+    .meun,.meun-list
+    {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .meun-list ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .meun-list ul li::after
+    {
+        
+            content: " ";
+            display:block;
+            border-bottom:  3px solid blue;
+            padding-top: 5px;
+            width: 0%;
+            margin: auto;
+        
+            transition: 0.6s;
+    }
+    .meun-list li:hover::after
+    {
+        width: 100%;
+    }
+    .gallery
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery-image
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .gallery-image img
+    {
+        height: 200px;
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+}
+@media(min-width:481px)
+{
+    .meun,.meun-list
+    {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+    .meun-list ul
+    {
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+    }
+    .meun-list ul li::after
+    {
+        
+            content: " ";
+            display:block;
+            border-bottom:  3px solid blue;
+            padding-top: 5px;
+            width: 0%;
+            margin: auto;
+        
+            transition: 0.6s;
+    }
+    .meun-list li:hover::after
+    {
+        width: 100%;
+    }
+    .gallery
+    {
+        display: flex;
+        flex-direction:row;
+        margin-top:180px;
+        margin-bottom: 50px;
+    }
+    .gallery-image
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .gallery-image img
+    {
+        height:30vh;
+        width: 48%;
+    }
+    
+     
+}
+@media(min-width:769px)
+{
+    .gallery
+    {
+        width: 100%;
+        margin-top:0px;
+    }
+    .gallery .gallery-images
+    {
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery-images img
+    {
+        height:33vh;
+        width: 32%;
+    }
+}
+@media(min-width:1024px)
+{
+    .gallery
+{
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.gallery-image
+{
+    width: 80%;
+    margin: auto;
+}
+.gallery-image img
+{
+    height: 37vh;
+    width: 23%;
+    margin:2px;
+}
+}
