@@ -1,0 +1,173 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+   background-image:url('image/body.jpeg') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+}
+.meunbar
+{
+    height:60px;
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.meun ul
+{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 20%;
+}
+.meun li
+{
+    display: inline;
+    padding: 0px 0px 0px 20px;
+}
+.meun a
+{
+    text-decoration: none;
+    color: white;
+}
+.search
+{
+    font-size: 19px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 95%;
+    padding-right: 20px;
+    color: white;
+}
+.sopp
+{
+    font-size: 19px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 98%;
+    padding-right: 20px;
+    color: white;
+}
+.pr1
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 30%;
+}
+.pr1 h1
+{
+    font-size: 60px;
+    color: white;
+    font-family: montserrat;
+}
+.pr1 i
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 5%;
+    bottom: -75%;  
+    font-size: 35px; 
+    color: white ;
+}
+.pr1 p
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 25%;
+    bottom: -60%;  
+    color: white ;
+    font-family: montserrat;
+}
+.form
+{
+    height: 550px;
+    width: 450px;
+    background-color:white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 80%;
+    top: 50%;
+
+}
+.content
+{
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: montserrat;
+}
+.content h2
+{
+    color: rgb(146, 144, 144);
+}
+.name
+{
+    padding: 10px;
+}
+.name input
+{
+    height: 50px;
+    width: 85%;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid  rgb(234, 230, 230) ;
+    border-radius: 50px;
+    background-color: rgb(234, 230, 230);
+}
+.name input::placeholder
+{
+    position: relative;
+    left: 10px;
+    color: rgb(114, 110, 110);
+}
+.email
+{
+    padding: 10px;
+}
+.email input
+{
+    
+    height: 50px;
+    width: 85%;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid  rgb(234, 230, 230) ;
+    border-radius: 50px;
+    background-color: rgb(234, 230, 230);
+}
+.email input::placeholder
+{
+    position: relative;
+    left: 10px;
+    color: rgb(114, 110, 110);   
+}
+button
+{
+    height: 50px;
+    width: 85%;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid  blue ;
+    border-radius: 50px;
+    background-color: blue;
+}
+
+
