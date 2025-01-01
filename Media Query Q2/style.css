@@ -1,0 +1,55 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.home
+{
+    height: 550px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.home-caniton
+{
+    height: 450px;
+    width: 80%;
+    margin: auto;
+}
+.home-caniton img
+{
+    height: 450px;
+    width: 100%;
+    padding: 5px;
+}
+.gallery
+{
+    height: 550px;
+    width: 100%;
+}
+.gallery-cont
+{
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.gallery-cont img
+{
+    height: 450px;
+    width: 30%;
+    padding: 5px;
+}
+.foratr
+{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}

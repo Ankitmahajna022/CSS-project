@@ -1,0 +1,83 @@
+/* Media Query for max-width: 1200px */
+@media (max-width: 1200px) {
+    .home-caniton {
+        width: 90%;
+    }
+    .gallery-cont {
+        width: 90%;
+    }
+    .gallery-cont img {
+        width: 28%; /* Slightly smaller for better spacing */
+    }
+}
+
+/* Media Query for max-width: 992px */
+@media (max-width: 992px) {
+    .home {
+        height: 500px;
+    }
+    .home-caniton {
+        height: 400px;
+    }
+    .home-caniton img {
+        height: 400px;
+    }
+    .gallery {
+        height: 500px;
+    }
+    .gallery-cont {
+        flex-wrap: wrap; /* Allows images to stack if needed */
+        justify-content: center;
+    }
+    .gallery-cont img {
+        height: 200px;
+        width: 45%;
+    }
+}
+
+/* Media Query for max-width: 768px */
+@media (max-width: 768px) {
+    .home {
+        height: 400px;
+    }
+    .home-caniton {
+        height: 300px;
+    }
+    .home-caniton img {
+        height: 300px;
+    }
+    .gallery {
+        height: 400px;
+    }
+    .gallery-cont img {
+        height: 150px;
+        width: 48%;
+    }
+}
+
+/* Media Query for max-width: 576px */
+@media (max-width: 576px) {
+    .home 
+    {
+        height: 300px;
+    }
+    .home-caniton 
+    {
+        height: 200px;
+        width: 95%;
+    }
+    .home-caniton img 
+    {
+        height: 200px;
+    }
+    .gallery 
+    {
+        height: 450px; 
+    }
+    .gallery-cont img 
+    {
+        height: 150px;
+        width: 100%; 
+        
+    }
+}
