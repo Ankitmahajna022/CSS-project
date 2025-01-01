@@ -19,6 +19,12 @@
 <h3>Form</h3>
 
 <a href="https://github.com/Ankitmahajna022/CSS-project/tree/main/Form%20css"><img src="Screenshot 2024-12-26 104430.png"></a>
+<h3>Media-Qurey-Q1</h3>
+
+<a href="https://github.com/Ankitmahajna022/CSS-project/tree/main/Media%20Query%20Q1"><img src="Q-1.png"></a>
+<h3>Media-Qurey-Q2</h3>
+
+<a href="https://github.com/Ankitmahajna022/CSS-project/tree/main/Media%20Query%20Q2"><img src="Q2.png"></a>
 
 
 
